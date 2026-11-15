@@ -1,24 +1,24 @@
-# ⚖️ ASU SCALE 2027 - MAIN.FNT: DIY as Promotion
+# REA + ASU SCALE 2027
 
+## 🔍 REA - Reverse Engineering Assistant
+Original Project: https://rea.tools/
+REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. Analysis runs locally.
+
+Tools included: Ghidra, Hopper, IDA, Kuna, JADX, binwalk, pwndbg, pwntools, unblob, wabt, wakaru
+Full original README: `REA_ORIGINAL_README.md`
+
+## ⚖️ ASU SCALE 2027 - MAIN.FNT: DIY as Promotion
 **Author:** Kai Olaf Ketelhut, HdK Berlin
 **Ref:** 2026-0812-CNNN3-BK01
-**Conference:** 2027 Eleventh Annual SCALE Conference
-**Location:** Sandra Day O'Connor College of Law, Arizona State University, Phoenix, AZ
+**Conference:** 2027 Eleventh Annual SCALE Conference, ASU, Phoenix, AZ
 **Track:** Law & Sustainability / Legal Education
 
-## Proposal
-**Title:** MAIN.FNT: DIY as Promotion – ReNo Cost Calculation, License Economics, and FAT Obligations in Modern Legal Education
-**Type:** Presentation Proposal
+- ReNo Cost Calculation upon DIY
+- License Economics & Barcode Bank Integration (MAIN.FNT)
+- FAT Obligations & Legacy Persistence
 
-## Abstract - 3 Säulen
-1. **ReNo Cost Calculation upon DIY** - Billing, overhead, fee structures when modular legal tools bypass traditional intermediaries
-2. **License Economics & Barcode Bank Integration** - MAIN.FNT, document indexing, physical-to-digital asset management
-3. **FAT Obligations & Legacy Persistence** - Compliance, audit trail, file system governance across DOS + modern legal software
+Files: `docs/PROPOSAL.md`, `docs/COVER_LETTER.md`
 
-## Files
-- `ASU_SCALE_Conference_Submission_Cover_Letter_1.pdf` - Cover Letter, 7. Nov 2026
-- `docs/` - Proposal, Abstract, Slides (kommt noch)
-
-## Related
-- OMQ Secure Core (EAL4+): https://github.com/kaiolafketelhut/omq - Cheat-Proof, HMAC-SHA256, FIA_AFL.1
-- OMQ GOLD: https://kaiolafketelhut.github.io/omq/
+## 🔗 Warum das zusammen passt
+REA analysiert Legacy-Binaries + FAT + DOS Systeme -> Genau das, was SCALE für Legal Education braucht.
+Und für EAL4+ / AVA_VAN.4 Vulnerability Analysis im OMQ Secure Core.
