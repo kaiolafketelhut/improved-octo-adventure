@@ -1,0 +1,11 @@
+File,Type,Purpose,Size_Bytes,SHA256,Status,Notes
+Main.java,Java,MAIN.JAR hash checker,,,OK,Original BurpCheck
+hexdiff.py,Python,Hexdiff + signature checks,,,OK,Boot Sig + Mac Type + TIER RT
+erp_time.py,Python,ERP calc CSV + BIN,,,OK,8h normal 0.5h break OT after 8h
+ERPTime.java,Java,ERP calc CSV,,,OK,Same logic as Python
+timesheet.csv,CSV,Test timesheet,,,OK,Kai + Anna test data
+timesheet.bin,BIN,Fingerprint machine test,,,OK,32-byte records with 55 AA trailer
+kdp.ximg,XIMG,Macintosh MIDI substitute,161,09aad2cfd9d2e80881bbed17a93c418ee8d99b8756374d4959f8147914214f33,OK,Header XIMG 01 01 + zlib 78 9C
+summary.md,Markdown,Project summary BOM,,,OK,Reference checks + ERP results
+BOM.csv,CSV,Bill of Materials for ERP import,,,OK,This file
+.gitignore,Config,Ignore jar class bin obj,,,OK,*.jar *.class bin/ obj/
