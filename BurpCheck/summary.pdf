@@ -1,0 +1,75 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2789 >>
+stream
+BT /F2 18 Tf 50 800 Td (TIER Software Integration Project) Tj ET
+BT /F2 13 Tf 50 772 Td (ERP Suite - Employee Work Time Calculation) Tj ET
+BT /F1 10 Tf 50 750 Td (Summary.md | BOM - Bill of Materials | PDF Version) Tj ET
+BT /F1 10 Tf 50 732 Td (--------------------------------------------------) Tj ET
+BT /F2 12 Tf 50 702 Td (1. Project Overview) Tj ET
+BT /F1 11 Tf 50 680 Td (Repo: kaiolafketelhut/improved-octo-adventure - Branch: main) Tj ET
+BT /F1 11 Tf 50 662 Td (Commit: 6dc1f9f - Fix summary.md formatting) Tj ET
+BT /F1 11 Tf 50 644 Td (Rules: 8.0h normal, 0.5h break if >6h, Overtime after 8h) Tj ET
+BT /F2 12 Tf 50 616 Td (2. BOM - Bill of Materials) Tj ET
+BT /F1 11 Tf 50 594 Td (Main.java - MAIN.JAR hash checker) Tj ET
+BT /F1 11 Tf 50 576 Td (hexdiff.py - Hexdiff + signature checks) Tj ET
+BT /F1 11 Tf 50 558 Td (erp_time.py / ERPTime.java - ERP calc CSV + BIN) Tj ET
+BT /F1 11 Tf 50 540 Td (timesheet.csv / timesheet.bin - Test timesheets) Tj ET
+BT /F1 11 Tf 50 522 Td (kdp.ximg - Macintosh MIDI substitute, 161 bytes) Tj ET
+BT /F1 11 Tf 50 504 Td (summary.md / BOM.csv - This documentation) Tj ET
+BT /F2 12 Tf 50 476 Td (3. Reference Checks - a.bin / b.bin) Tj ET
+BT /F1 11 Tf 50 454 Td (Boot Sig [510-511]: 55AA -> OK 0x55AA) Tj ET
+BT /F1 11 Tf 50 436 Td (Mac Type [0-3]: 4D696469 = 'Midi') Tj ET
+BT /F1 11 Tf 50 418 Td (TIER ID 0x5254 \('RT'\): FOUND at offset 512) Tj ET
+BT /F1 11 Tf 50 400 Td (0x0200   52             58             <-- DIFF) Tj ET
+BT /F2 12 Tf 50 372 Td (4. Actual Check - kdp.ximg) Tj ET
+BT /F1 11 Tf 50 350 Td (Size: 161 bytes) Tj ET
+BT /F1 9 Tf 50 332 Td (SHA256: 09aad2cfd9d2e80881bbed17a93c418ee8d99b8756374d4959f8147914214f33) Tj ET
+BT /F1 11 Tf 50 314 Td (Header [0-3]: 58 49 4D 47 = 'XIMG') Tj ET
+BT /F1 11 Tf 50 296 Td (Header [4-5]: 01 01 = Version 1.1) Tj ET
+BT /F1 11 Tf 50 278 Td (Header [14-15]: 78 9C = zlib header) Tj ET
+BT /F1 11 Tf 50 260 Td (Boot Sig [510-511]: file too short -> NOT APPLICABLE) Tj ET
+BT /F1 11 Tf 50 242 Td (Mac Type: XIMG \(not Midi\) | TIER RT: NOT FOUND) Tj ET
+BT /F1 11 Tf 50 224 Td (Conclusion: Valid XIMG container, not boot sector, not raw MIDI.) Tj ET
+BT /F2 12 Tf 50 196 Td (5. ERP Results - Verified) Tj ET
+BT /F1 11 Tf 50 174 Td (Kai   2026-11-17  08:00  17:30  9.00h  1.00h OT  OVERTIME) Tj ET
+BT /F1 11 Tf 50 156 Td (Anna  2026-11-17  09:00  18:00  8.50h  0.50h OT  OVERTIME) Tj ET
+BT /F1 11 Tf 50 138 Td (Total: 17.50h) Tj ET
+BT /F2 12 Tf 50 110 Td (6. How To Use) Tj ET
+BT /F1 11 Tf 50 88 Td (sha256sum -c timesheet.sha256) Tj ET
+BT /F1 11 Tf 50 70 Td (python3 hexdiff.py a.bin b.bin) Tj ET
+BT /F1 11 Tf 50 52 Td (python3 erp_time.py timesheet.csv / timesheet.bin) Tj ET
+BT /F1 11 Tf 50 34 Td (java ERPTime timesheet.csv) Tj ET
+BT /F1 11 Tf 50 16 Td (gcc oneyepdf.c -o oneyepdf && ./oneyepdf) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3237
+%%EOF
