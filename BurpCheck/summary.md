@@ -44,8 +44,9 @@ File: https://github.com/kaiolafketelhut/index.html/blob/main/kdp.ximg
     Size: 161 bytes
     SHA256: 09aad2cfd9d2e80881bbed17a93c418ee8d99b8756374d4959f8147914214f33
     Header [0-3]: 58 49 4D 47 = 'XIMG'
-    Header [4-5]: 01 01 = Version 1.1
-    Header [14-15]: 78 9C = zlib header (compressed data)
+    Header [4-5]: 01 01 = version 1, pixel format 1 (RGBA)
+    Header [6-13]: 120 x 16 pixels
+    Header [14-15]: 78 9C = zlib header (inflates to 7680 bytes = 120*16*4)
     Boot Sig [510-511]: file too short -> NOT APPLICABLE
     Mac Type [0-3]: 58494D47 = 'XIMG' (not 'Midi')
     TIER ID 0x5254 ('RT'): NOT FOUND
@@ -60,7 +61,7 @@ Conclusion:
 
 ### 5. ERP Results - Verified
 
-    SHA256 timesheet.bin: 245c2a7d8f9403396affbb10c4575be5c1fc74a6ae843fc97da5be04fb
+    SHA256 timesheet.bin: 245c2a7d8f9403396affbb10c4575be5c1fc74a6ae843fc97da5be04fbf1ce14
     Employee   Date         In     Out    Total  Overtime Status
     Kai        2026-11-17   08:00  17:30  9.00   1.00     OVERTIME
     Anna       2026-11-17   09:00  18:00  8.50   0.50     OVERTIME
